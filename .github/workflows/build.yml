@@ -28,43 +28,43 @@ jobs:
 
       - name: Zip Adventure Gear Kit
         run: |
-          zip -r "Starter Items - Adventure Gear Kit.zip" adventure_gear_kit/*
+          cd adventure_gear_kit && zip -r "../Starter Items - Adventure Gear Kit.zip" *
 
       - name: Zip Alchemist Starter Kit
         run: |
-          zip -r "Starter Items - Alchemist Starter Kit.zip" alchemist_starter_kit/*
+          cd alchemist_starter_kit && zip -r "../Starter Items - Alchemist Starter Kit.zip" *
 
       - name: Zip Builder Starter Kit
         run: |
-          zip -r "Starter Items - Builder Starter Kit.zip" builder_starter_kit/*
+          cd builder_starter_kit && zip -r "../Starter Items - Builder Starter Kit.zip" *
 
       - name: Zip Craftsman Starter Kit
         run: |
-          zip -r "Starter Items - Craftsman Starter Kit.zip" craftsman_starter_kit/*
+          cd craftsman_starter_kit && zip -r "../Starter Items - Craftsman Starter Kit.zip" *
 
       - name: Zip Fisher Starter Kit
         run: |
-          zip -r "Starter Items - Fisher Starter Kit.zip" fisher_starter_kit/*
+          cd fisher_starter_kit && zip -r "../Starter Items - Fisher Starter Kit.zip" *
 
       - name: Zip Hunter Starter Kit
         run: |
-          zip -r "Starter Items - Hunter Starter Kit.zip" hunter_starter_kit/*
+          cd hunter_starter_kit && zip -r "../Starter Items - Hunter Starter Kit.zip" *
 
       - name: Zip Knight Starter Kit
         run: |
-          zip -r "Starter Items - Knight Starter Kit.zip" knight_starter_kit/*
+          cd knight_starter_kit && zip -r "../Starter Items - Knight Starter Kit.zip" *
 
       - name: Zip Miner Starter Kit
         run: |
-          zip -r "Starter Items - Miner Starter Kit.zip" miner_starter_kit/*
+          cd miner_starter_kit && zip -r "../Starter Items - Miner Starter Kit.zip" *
 
       - name: Zip Nomad Starter Kit
         run: |
-          zip -r "Starter Items - Nomad Starter Kit.zip" nomad_starter_kit/*
+          cd nomad_starter_kit && zip -r "../Starter Items - Nomad Starter Kit.zip" *
 
       - name: Zip Survival Starter Kit
         run: |
-          zip -r "Starter Items - Survival Starter Kit.zip" survival_starter_kit/*
+          cd survival_starter_kit && zip -r "../Starter Items - Survival Starter Kit.zip" *
 
       - name: Upload Adventure Gear Kit
         uses: actions/upload-artifact@v4
