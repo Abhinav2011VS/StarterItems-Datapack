@@ -15,10 +15,10 @@ jobs:
 
       - name: Zip Datapack
         run: |
-          zip -r "Starter Items - Type 1.zip" pack.mcmeta pack.png data/
+          zip -r "Starter Items - Adventure Gear.zip" pack.mcmeta pack.png data/
 
       - name: Upload Zip Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: SI - Type 1.zip
-          path: Starter Items - Type 1.zip
+          name: SI - Adventure Gear.zip
+          path: Starter Items - Adventure Gear.zip
