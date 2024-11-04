@@ -1,5 +1,5 @@
 # Check if the player has already received starter items
-execute as @a[scores={starter_items=0}] run (
+execute as @a[scores={si=0}] run (
     # Give Leather Armor
     give @s leather_helmet
     give @s leather_chestplate
@@ -28,8 +28,9 @@ execute as @a[scores={starter_items=0}] run (
     give @s water_bucket 1
     give @s white_bed 1
     give @s crafting_table 1
+    give @s furnace 1
     give @s shield 1
 
     # Increase the scoreboard score to 1 so they don't get the items again
-    scoreboard players set @s starter_items 1
+    scoreboard players set @s si 1
 )

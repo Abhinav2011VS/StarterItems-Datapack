@@ -1,1 +1,1 @@
-scoreboard objectives add starter_items dummy
+scoreboard objectives add si dummy
