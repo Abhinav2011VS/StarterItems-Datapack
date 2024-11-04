@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Starter Items Datapack by Abhinav VS - Kit Type: Builder Starter",
+    "supported_formats": [
+      26,
+      41,
+      48,
+      57,
+      58
+    ]
+  }
+}
